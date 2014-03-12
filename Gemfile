@@ -35,6 +35,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :test do
+	gem 'capybara', '1.1.2'
+end
+
 #Must add this code to talk to Heroku servers
 group :production do
 	gem 'pg', '0.15.1'
